@@ -1,0 +1,14 @@
+{
+  "name": "rindepe-demo",
+  "version": "1.0.0",
+  "description": "RindePe - demo local del sistema de rendición de cuentas (PercyTech)",
+  "private": true,
+  "scripts": {
+    "install-all": "npm install --prefix backend && npm install --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "start": "node --disable-warning=ExperimentalWarning backend/server.js",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "test": "node --disable-warning=ExperimentalWarning backend/test/flujo.test.js"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "rindepe-demo-backend",
+  "version": "1.0.0",
+  "description": "API de la demo RindePe (SQLite + archivos locales)",
+  "main": "server.js",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server.js"
+  },
+  "dependencies": {
+    "express": "4.22.3",
+    "multer": "2.4.0",
+    "pdfkit": "0.15.2",
+    "qrcode": "1.5.4"
+  }
+}
