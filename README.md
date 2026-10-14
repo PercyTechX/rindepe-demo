@@ -8,6 +8,17 @@ sin Google Sheets, sin Google Drive y sin internet.
 - Marca: **RindePe** para la empresa ficticia **Empresa Demo SAC**, elaborado por PercyTech.
 - Todos los datos (nombres, DNI, celulares, RUC, cuentas, comprobantes) son inventados.
 
+## Documentación
+
+| Documento | Para qué |
+|---|---|
+| [docs/GUIA_PRESENTACION.md](docs/GUIA_PRESENTACION.md) | Guion para presentar y capacitar, con qué depósito de ejemplo mostrar cada caso. |
+| [docs/REGLAS_DE_NEGOCIO.md](docs/REGLAS_DE_NEGOCIO.md) | Estados, montos (vuelto y reembolso), comprobantes, anti-duplicado, maestros. |
+| [docs/API.md](docs/API.md) | Todos los endpoints del servidor. |
+| [docs/MODELO_DE_DATOS.md](docs/MODELO_DE_DATOS.md) | Tablas de SQLite, carpetas de archivos, respaldo. |
+| [docs/SOLUCION_DE_PROBLEMAS.md](docs/SOLUCION_DE_PROBLEMAS.md) | El celular no abre el link, puerto ocupado, firewall, Node. |
+| [docs/ESTADO.md](docs/ESTADO.md) | Decisiones tomadas, qué está hecho y qué falta (para retomar). |
+
 ## Cómo iniciarla
 
 1. Doble clic en **`Iniciar RindePe.bat`**.
